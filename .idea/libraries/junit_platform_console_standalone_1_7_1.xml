@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="junit-platform-console-standalone-1.7.1">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/newmath_java/lib/junit-platform-console-standalone-1.7.1.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

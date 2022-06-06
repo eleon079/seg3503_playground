@@ -10,22 +10,21 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class DateNextDateOkTest{
 
-    private int yearOrigin;
-    private int monthOrigin;
-    private int dayOrigin;
-    private int yearNext;
-    private int monthNext;
-    private int dayNext;
-    // Where the "Origin" values are the originals, and the "Next" values represent the set of values in the following set.
+    private int yearStart;
+    private int monthStart;
+    private int dayStart;
+    private int yearExpect;
+    private int monthExpect;
+    private int dayExpect;
+
     
-    
-    public DateNextDateOkTest(int yearO, int monthO, int daysO, int yearN, int monthN, int dayN){
-        this.yearOrigin = yearO;
-        this.monthOrigin = monthO;
-        this.dayOrigin = daysO;
-        this.yearNext = yearN;
-        this.monthNext = monthN;
-        this.dayNext = dayN;
+    public DateNextDateOkTest(int year, int month, int days, int year1, int month1, int day1){
+        this.yearStart = year;
+        this. monthStart = month;
+        this.dayStart = days;
+        this.yearExpect = year1;
+        this.monthExpect = month1;
+        this.dayExpect = day1;
 
     }
     

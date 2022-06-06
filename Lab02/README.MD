@@ -1,3 +1,9 @@
+Emile Leonhardt et Zakaria Ouilli
+
+300193674 et 00203793
+
+5 Juin 2022
+
 Pour exécuter l'application, nous avons utilisé la commande java -jar user-registration-app-0.1.0.jar comme montré ci-dessous:
 ![image](https://user-images.githubusercontent.com/71184521/172087200-98734ce6-1615-41a7-a2c6-100bb58a9e54.png)
 

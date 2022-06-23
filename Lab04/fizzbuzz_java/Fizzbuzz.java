@@ -2,13 +2,13 @@ public class Fizzbuzz {
     public String FizzBuzz(int n){
         String result = "";
         if(n % 5 == 0){
-            result = "Buzz";
+            result  "Buzz";
         }
         if(n%3 == 0){
             if(n%5 == 0){
-                result = Integer.toString(n);
+                result  "FizzBuzz";
             }
-            result = "Fizz";
-        return result;
+            result  "Fizz";
+        return String.valueOf(n);
     }
 }
